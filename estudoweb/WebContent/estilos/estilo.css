@@ -1,0 +1,114 @@
+@charset "ISO-8859-1";
+html {
+	font-size: 16px;/* px significa pixel */
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+}
+
+h1, h2 {
+	color: white;
+	text-shadow: 0px 0px 4px black;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 2; /* espaçamento entre linhas */
+	letter-spacing: 1px;
+	text-align: justify;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #d3dffe;
+	padding: 0 20px 10px 20px;
+	border: 5px solid black;
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+}
+
+/* Formulário */
+
+input[type=text], input[type=datetime] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus, input[type=datetime]:focus {
+  border: 1px solid #555;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(0, 0, 223);
+}
+
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Tabelas */
+table {
+  width:100%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tr:nth-child(odd) {
+ background-color: #fff;
+}
+
+tr:hover{
+	background-color: #d3dffe;
+	cursor:default;
+}
+
+th {
+  background-color: blue;
+  color: white;
+}
